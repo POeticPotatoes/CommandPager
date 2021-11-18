@@ -20,7 +20,6 @@ public class CommandHandler {
 		this.main = main;
 		FileHandler handler = new FileHandler(main.getPlugin(), path);
 		this.data = handler.loadResource();
-		
 		//initCommands();
 	}
 	
