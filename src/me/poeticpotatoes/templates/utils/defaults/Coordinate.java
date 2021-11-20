@@ -15,23 +15,6 @@ public class Coordinate extends Accumulator{
 		return loc;
 	}
 
-	/*@Override
-	public List<String> getSuggestions(CommandSender sender) {
-		if (!(sender instanceof Player)) return null;
-		List<String> ans = new ArrayList<String>();
-		Location loc = ((Player) sender).getLocation();
-		switch (counter) {
-		case 0:
-			ans.add(String.valueOf(loc.getBlockX()));
-		case 1:
-			ans.add(String.valueOf(loc.getBlockY()));
-		case 2:
-			ans.add(String.valueOf(loc.getBlockZ()));
-		}
-		ans.add("~");
-		return ans;
-	}*/
-
 	@Override
 	public Boolean isFilled() {
 		return this.counter == 3;
