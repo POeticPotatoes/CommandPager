@@ -1,5 +1,4 @@
 .DS_Store
-.classpath
 .settings/
 *.prefs
-/target/
+.classpath
